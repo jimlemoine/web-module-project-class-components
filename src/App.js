@@ -71,7 +71,7 @@ class App extends React.Component {
         <div className='header'>
           <h2>Welcome to your Todo App!</h2>
           <TodoForm handleAddTodo={this.handleAddTodo} />
-          </div>
+        </div>
         <TodoList handleClear={this.handleClear} handleToggle={this.handleToggle} todos={this.state.todos} />
       </div>
     );
